@@ -1,7 +1,11 @@
 # MBM1  
-# Proyecto: [Título]  
+# Proyecto: Anotación genómica de bacteria ....  
 ## Integrantes  
-- Nombre 1  
+- José Proaño  
+- Génesis Morocho  
+- Mayra Erazo  
+- Samanta Bucheli  
+- Michelle Yugcha  
 ## Objetivo  
 ## Dataset  
 ## Flujo de trabajo  
