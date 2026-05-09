@@ -1,4 +1,4 @@
-# MBM1  
+# MBM_G1  
 # Proyecto: Anotación genómica de Pseudomonas aeruginosa para identificación de genes de resistencia antimicrobiana
 ## Integrantes  
 - José Proaño  
