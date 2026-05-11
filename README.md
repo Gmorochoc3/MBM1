@@ -1,21 +1,22 @@
 # MBM_G1  
-# Proyecto: Anotación genómica de Pseudomonas aeruginosa para identificación de genes de resistencia antimicrobiana
+# Proyecto: Identificación de genes de resistencia antimicriobiana de diferentes aislados clínicos de Pseudomonas aeruginosa    
 ## Integrantes  
 - José Proaño  
 - Génesis Morocho  
 - Mayra Erazo  
 - Samanta Bucheli  
 - Michelle Yugcha
-## Pregunta
-¿Cómo ensamblo un genoma con datos de Illumina?  
-¿Qué genes se encuentran en un borrador del genoma bacteriano?  
-¿Cómo puedo obtener más información sobre los genes de resistencia a los antimicrobianos?  
+## Pregunta de investigación
+¿Qué genes de resistencia antimicrobiana pueden identificarse mediante el ensamblaje y análisis bioinformático de diferentes aislados clínicos de Pseudomonas aeruginosa? 
   
-## Objetivo  
-Realiza un control de calidad de las lecturas  
-Determinar la estructura del genoma  
-Escanear los genes de resistencia antimicrobiana    
-
+## Objetivos  
+### Objetivo general  
+Identificar genes de resistencia antimicrobiana y secuencias plasmídicas presentes en diferentes aislados clínicos de Pseudomonas aeruginosa mediante ensamblaje de novo y análisis bioinformático.
+### Objetivos específicos
+•  Realizar el control de calidad de las lecturas genómicas obtenidas de diferentes aislados clínicos de Pseudomonas aeruginosa.   
+•  Ensamblar los genomas bacterianos utilizando herramientas de ensamblaje de novo.   
+•  Detectar genes de resistencia antimicrobiana utilizando bases de datos específicas.    
+•  Comparar los perfiles de resistencia antimicrobiana entre los diferentes aislados clínicos analizados.  
 ## Dataset  
 ## Flujo de trabajo  
 ## Resultados  
