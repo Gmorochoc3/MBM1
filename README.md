@@ -3,7 +3,7 @@
 ## Integrantes  
 - José Proaño  
 - Génesis Morocho  
-- Mayra Erazo  
+- Mayra Erazo 
 - Samanta Bucheli  
 - Michelle Yugcha
 ## Pregunta de investigación
