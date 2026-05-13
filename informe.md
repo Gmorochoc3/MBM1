@@ -10,12 +10,12 @@ En este proyecto se busca identificar genes de resistencia antimicrobiana presen
 ¿Qué genes de resistencia antimicrobiana pueden identificarse mediante el ensamblaje y análisis bioinformático de diferentes aislados clínicos de *Pseudomonas aeruginosa*?   
 
 ## OBJETIVOS
-Objetivo general
+Objetivo general:
 Identificar genes de resistencia antimicrobiana y secuencias plasmídicas presentes en diferentes aislados clínicos de Pseudomonas aeruginosa mediante ensamblaje de novo y análisis bioinformático.
 
-Objetivos específicos
-• Realizar el control de calidad de las lectura s genómicas obtenidas de diferentes aislados clínicos de Pseudomonas aeruginosa.
-• Ensamblar los genomas bacterianos utilizando herramientas de ensamblaje de novo.
+Objetivos específicos:
+Realizar el control de calidad de las lectura s genómicas obtenidas de diferentes aislados clínicos de Pseudomonas aeruginosa.
+Ensamblar los genomas bacterianos utilizando herramientas de ensamblaje de novo.
 • Detectar genes de resistencia antimicrobiana utilizando bases de datos específicas.
 • Comparar los perfiles de resistencia antimicrobiana entre los diferentes aislados clínicos analizados.
 
