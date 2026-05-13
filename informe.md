@@ -1,10 +1,10 @@
 # INFORME DEL PROYECTO FINAL DE HERRAMIENTAS ÓMICAS I
 ## INTEGRANTES 
-José Proaño
-Génesis Morocho
-Mayra Erazo
-Samanta Bucheli
-Michelle Yugcha
+José Proaño,
+Génesis Morocho,
+Mayra Erazo,
+Samanta Bucheli,
+Michelle Yugcha.
 ## TEMA 
 Identificación de genes de resistencia antimicriobiana de diferentes aislados clínicos de Pseudomonas aeruginosa
 ## PREGUNTA DE INVESTIGACIÓN
