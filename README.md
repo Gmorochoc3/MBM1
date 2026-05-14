@@ -49,27 +49,37 @@ Raw Data (SRA) -> Fastq-dump -> Trim Galore (Cleaning) -> SPAdes (Assembly) -> B
 ```mermaid
 flowchart TD
 
-A[Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012] --> B[Descarga de secuencias<br/>prefetch / archivos fastq]
+%% PASO 1
+A[INPUT<br/>Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012]
 
-B --> C[Archivos FASTQ crudos]
+A --> B[TOOL<br/>Descarga de secuencias<br/>prefetch]
 
-C --> D[Control de calidad<br/>FastQC]
+B --> C[OUTPUT<br/>Archivos FASTQ crudos]
 
-D --> E[Limpieza de lecturas<br/>TrimGalore]
+%% PASO 2
+C --> D[TOOL<br/>Control de calidad<br/>FastQC]
 
-E --> F[Lecturas filtradas]
+D --> E[OUTPUT<br/>Reportes de calidad HTML]
 
-F --> G[Ensamblaje de novo<br/>SPAdes]
+%% PASO 3
+E --> F[TOOL<br/>Limpieza de lecturas<br/>TrimGalore]
 
-G --> H[Contigs ensamblados]
+F --> G[OUTPUT<br/>Lecturas filtradas y limpias]
 
-H --> I[Evaluación del ensamblaje<br/>QUAST / Bandage]
+%% PASO 4
+G --> H[TOOL<br/>Ensamblaje de novo<br/>SPAdes]
 
-H --> J[Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
+H --> I[OUTPUT<br/>Contigs ensamblados]
 
-J --> K[Genes de resistencia detectados]
+%% PASO 5
+I --> J[TOOL<br/>Evaluación del ensamblaje<br/>QUAST / Bandage]
 
-K --> N[Resultados finales<br/>Perfiles de resistencia antimicrobiana]
+J --> K[OUTPUT<br/>Reporte del ensamblaje]
+
+%% PASO 6
+I --> L[TOOL<br/>Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
+
+L --> M[OUTPUT<br/>Genes de resistencia antimicrobiana detectados]
 ```
 ## Resultados  
 ## Contribución individual  
