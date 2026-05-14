@@ -29,18 +29,40 @@ Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SR
 Figura x. Búsqueda de “Pseudomonas aeruginosa clinical isolate nanopore” en NCBI.  
 <img width="1480" height="900" alt="c" src="https://github.com/user-attachments/assets/05b71173-db52-434a-9b0f-a370fc3516fe" />  
 
-La selección de las secuencias de trabajo se realizó considerando que los aislados clínicos fueran de diferente procedencia, de lo cual resultaron dos genomas de *Pseudomonas aeruginosa*, identificadas como: genomic sequencing of bacterial isolate 2026CH_00024 (SRR38509012) (Figura x) y Illumina sequencing of 2026CB-00371 (SRR38520180) (Figura x).
+La selección de las secuencias de trabajo se realizó considerando que los aislados clínicos fueran de diferente procedencia, de lo cual resultaron dos genomas de *Pseudomonas aeruginosa*, identificadas como: SRR38509012; SRR38520180
 
-Figura X. Detalle de la búsqueda de la secuencia SRR38509012 del genoma de *P. aeruginosa* en la base de datos NCBI.  
-<img width="1209" height="615" alt="a" src="https://github.com/user-attachments/assets/2cf9b1de-2b6c-4296-8f4e-8dbe3402b81f" />
+Figura X. Detalle de la búsqueda de la secuencia SRR38509012  
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dfa00931-27b7-4201-ad05-4fd02f57b42d" />
 
-Figura X. Detalle de la búsqueda de la secuencia SRR38520180 del genoma de *P. aeruginosa* en la base de datos NCBI.   
-<img width="1186" height="611" alt="b" src="https://github.com/user-attachments/assets/c1b28d09-dddb-42dd-b70f-ee31c41b9d0a" />
- 
 
-Los datos genómicos descasrgados en formato FASTQ fueron almacenados en zenodo: 
-### Control de calidad de datos    
-### Ensamblaje de novo     
+Figura X. Detalle de la búsqueda de la secuencia SRR38520180  
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3a077da7-632d-416c-ab16-83e4f62d2287" />  
+
+
+Los datos genómicos descasrgados en formato FASTQ fueron almacenados en zenodo:  
+El proceso de descarga se lo realizo utilizando el comando prefetch como se lo vizualiza en la siguiente figura  
+Se utilizo este comando ya que nos ayuda a tener una descarga mas eficiente y mas rapida en relacion a la que nos da NCBI
+<img width="492" height="313" alt="image" src="https://github.com/user-attachments/assets/a43fc38d-fa80-42a9-afdd-bac47a507cea" />  
+posterior a ello se lo convirtio en formato fastq con el comando fasterq-dump SRR38520180 --split-files
+<img width="498" height="110" alt="image" src="https://github.com/user-attachments/assets/2e09b630-d602-4e1a-bb38-5b2921649d89" />
+
+
+### Control de calidad de datos  
+Para el control de calidad se utilizo el comando fastqc *.fastq -t 8 con el cual nos ayuda a correr todos los archivos en conjunto  
+<img width="328" height="245" alt="image" src="https://github.com/user-attachments/assets/e0d7b9b2-5324-44a5-a434-5cdbcca7ff0e" />
+### Limpieza de lecturas
+para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codigo trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq    
+<img width="354" height="381" alt="image" src="https://github.com/user-attachments/assets/e6b7f79a-e18e-476c-a394-90ef8e577cf0" />  
+<img width="343" height="388" alt="image" src="https://github.com/user-attachments/assets/81ea1002-1009-4c14-bb94-c44209e7d91f" />
+
+
+### Ensamblaje de novo   
+Para el ensable de los datos obtenidos se utilizo Spades: spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
+<img width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
+Donde vamos a tener los sguientes archivos  
+<img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
+
+
 ### Identificación de plásmidos  
 ### Análisis de resistencia antimicrobiana  
 
