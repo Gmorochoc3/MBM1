@@ -58,7 +58,7 @@ para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codig
 
 ### Ensamblaje de novo   
 Para el ensable de los datos obtenidos se utilizo Spades: spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
-<img align="rigth" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
+<img align="right" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
 Donde vamos a tener los sguientes archivos  
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
 
