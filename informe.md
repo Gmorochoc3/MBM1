@@ -9,7 +9,7 @@ Michelle Yugcha
 Identificación de genes de resistencia antimicriobiana de aislados clínicos de *Pseudomonas aeruginosa*
 
 ## PROBLEMA BIOLÓGICO 
-La resistencia antimicrobiana (RAM) es considerada una de las principales amenazas para la salud pública mundial debido al aumento de bacterias multirresistentes que disminuyen la eficacia de los tratamientos antibióticos. *Pseudomonas aeruginosa* es un patógeno oportunista asociado principalmente a infecciones hospitalarias y posee una elevada capacidad para desarrollar resistencia mediante bombas de eflujo, mutaciones cromosómicas y adquisición de genes de resistencia a través de plásmidos y otros elementos móviles (Pang et al., 2019). Además, esta bacteria ha sido catalogada por la World Health Organization como un patógeno prioritario crítico para el desarrollo de nuevos antibióticos (WHO, 2024).  
+La resistencia antimicrobiana (RAM) es considerada una de las principales amenazas para la salud pública mundial debido al aumento de bacterias multirresistentes que disminuyen la eficacia de los tratamientos antibióticos. *Pseudomonas aeruginosa* es un patógeno oportunista asociado principalmente a infecciones hospitalarias y posee una elevada capacidad para desarrollar resistencia mediante bombas de eflujo, mutaciones cromosómicas y adquisición de genes de resistencia a través de plásmidos y otros elementos móviles (Pang et al., 2019). Además, esta bacteria ha sido catalogada por la Organización Mundial de la Salud como un patógeno prioritario crítico para el desarrollo de nuevos antibióticos (WHO, 2024).  
 
 En este proyecto se busca identificar genes de resistencia antimicrobiana presentes en aislados clínicos de *Pseudomonas aeruginosa* mediante el uso de herramientas ómicas. 
 
