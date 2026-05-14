@@ -26,7 +26,8 @@ Objetivos específicos:
 ### Obtención y preparación de datos 
 Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SRA) del National Center for Biotechnology Information (NCBI), donde se utilizó la terminología “*Pseudomonas aeruginosa* clinical isolate nanopore”, como se muestra en la Figura X.   
 
-Figura x. Búsqueda de “Pseudomonas aeruginosa clinical isolate nanopore” en NCBI.  
+Figura x. Búsqueda de “Pseudomonas aeruginosa clinical isolate nanopore” en NCBI. 
+
 <img width="1480" height="900" alt="c" src="https://github.com/user-attachments/assets/05b71173-db52-434a-9b0f-a370fc3516fe" />  
 
 La selección de las secuencias de trabajo se realizó considerando que los aislados clínicos fueran de diferente procedencia, de lo cual resultaron dos genomas de *Pseudomonas aeruginosa*, identificadas como: SRR38509012; SRR38520180
