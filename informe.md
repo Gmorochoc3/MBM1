@@ -22,7 +22,21 @@ Objetivos específicos:
 
 
 ## INTRODUCCIÓN  
-## DESARROLLO Y RESULTADOS    
+## DESARROLLO Y RESULTADOS
+
+## Herramientas empleadas
+SRA Toolkit: descarga de secuencias crudas a partir de CNBI.
+
+FastQC: revisión de calidad de lecturas
+
+Trim Galore: permite la limpieza de los datos crudos
+
+SPAdes: formación de conting
+
+BUSCO: validación de la secuencia
+
+CARD: identificación de genes de resistencia
+
 ### Obtención y preparación de datos 
 Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SRA) del National Center for Biotechnology Information (NCBI), donde se utilizó la terminología “*Pseudomonas aeruginosa* clinical isolate nanopore”, como se muestra en la Figura X.   
 
