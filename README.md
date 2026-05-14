@@ -40,7 +40,7 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 
 ## Herramientas bioinformáticas empleadas
 
-1. SRA Toolkit: descarga de secunencias crudas a partir de CNBI.
+1. SRA Toolkit: descarga de secuencias crudas a partir de CNBI.
 
 2. FastQC: revisión de calidad de lecturas
 
