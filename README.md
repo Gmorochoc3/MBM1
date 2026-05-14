@@ -39,47 +39,29 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 4. **Evaluación:** Se utilizó **BUSCO** (`busco -m genome`) para evaluar la calidad del ensamblaje obtenido en los archivos `contigs.fasta`.
 
 ## Resultados
-Como resultado del proceso de ensamblaje, se generaron carpetas de salida por cada librería procesada (`Output_Spades/SRR38509012` y `Output_Spades/SRR38520180`), donde se obtuvieron los archivos de ensamblaje final. 
-
-## Flujo de trabajo  
-
-El flujo de análisis de datos siguió este orden lógico:
-Raw Data (SRA) -> Fastq-dump -> Trim Galore (Cleaning) -> SPAdes (Assembly) -> BUSCO (Quality Check). 
-
 ```mermaid
 flowchart TD
 
-%% PASO 1
-A[INPUT<br/>Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012]
+A[Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012] --> B[Descarga de secuencias<br/>prefetch / fasterq-dump]
 
-A --> B[TOOL<br/>Descarga de secuencias<br/>prefetch]
+B --> C[Archivos FASTQ crudos]
 
-B --> C[OUTPUT<br/>Archivos FASTQ crudos]
+C --> D[Control de calidad<br/>FastQC]
 
-%% PASO 2
-C --> D[TOOL<br/>Control de calidad<br/>FastQC]
+D --> E[Limpieza de lecturas<br/>TrimGalore]
 
-D --> E[OUTPUT<br/>Reportes de calidad HTML]
+E --> F[Lecturas filtradas]
 
-%% PASO 3
-E --> F[TOOL<br/>Limpieza de lecturas<br/>TrimGalore]
+F --> G[Ensamblaje de novo<br/>SPAdes]
 
-F --> G[OUTPUT<br/>Lecturas filtradas y limpias]
+G --> H[Contigs ensamblados]
 
-%% PASO 4
-G --> H[TOOL<br/>Ensamblaje de novo<br/>SPAdes]
+H --> I[Evaluación del ensamblaje<br/>QUAST / Bandage]
 
-H --> I[OUTPUT<br/>Contigs ensamblados]
+H --> J[Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
 
-%% PASO 5
-I --> J[TOOL<br/>Evaluación del ensamblaje<br/>QUAST / Bandage]
+J --> K[Genes de resistencia detectados]
 
-J --> K[OUTPUT<br/>Reporte del ensamblaje]
-
-%% PASO 6
-I --> L[TOOL<br/>Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
-
-L --> M[OUTPUT<br/>Genes de resistencia antimicrobiana detectados]
 ```
 ## Resultados  
 ## Contribución individual  
