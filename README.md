@@ -33,6 +33,8 @@ Fecha de publicación: 2026-05-11
   
 
 ## Flujo de trabajo  
+## Metodología de Ensamblaje
+El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`spades.py`). El proceso se dividió en los siguientes pasos:
 ## Resultados  
 ## Contribución individual  
 Resumen breve  
