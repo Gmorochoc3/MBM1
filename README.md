@@ -33,6 +33,32 @@ Fecha de publicación: 2026-05-11
   
 
 ## Flujo de trabajo  
+```mermaid
+flowchart TD
+
+A[Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012] --> B[Descarga de secuencias<br/>prefetch / archivos fastq]
+
+B --> C[Archivos FASTQ crudos]
+
+C --> D[Control de calidad<br/>FastQC]
+
+D --> E[Limpieza de lecturas<br/>TrimGalore]
+
+E --> F[Lecturas filtradas]
+
+F --> G[Ensamblaje de novo<br/>SPAdes]
+
+G --> H[Contigs ensamblados]
+
+H --> I[Evaluación del ensamblaje<br/>QUAST / Bandage]
+
+H --> J[Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
+
+J --> K[Genes de resistencia detectados]
+
+K --> N[Resultados finales<br/>Perfiles de resistencia antimicrobiana]
+```
+
 ## Resultados  
 ## Contribución individual  
 Resumen breve  
