@@ -37,3 +37,6 @@ Fecha de publicación: 2026-05-11
 ## Contribución individual  
 Resumen breve  
 ## Cómo reproducir (scripts)
+
+## Tutorial de Galaxy
+Willem de Koning, Saskia Hiltemann, Detección de resistencia a antibióticos (Materiales de capacitación de Galaxy) . https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html En línea; consultado el miércoles 13 de mayo de 2026.
