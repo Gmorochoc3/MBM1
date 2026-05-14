@@ -48,6 +48,7 @@ Posteriormente, se realizó el control de calidad de las lecturas utilizando Fas
 Las lecturas filtradas fueron ensambladas de novo con SPAdes para obtener contigs genómicos, los cuales fueron evaluados mediante QUAST.  
 
 Finalmente, se identificaron genes de resistencia antimicrobiana utilizando herramientas y bases de datos especializadas como CARD y ResFinder.
+
 Diagrama 1. FLujo de trabajo bioinformático
 ```mermaid
 flowchart TD
