@@ -22,15 +22,18 @@ Las secuencias fueron obtenidas desde la base de datos pública Sequence Read Ar
 Se utilizarán secuencias genómicas en formato FASTQ de dos diferentes aislados clínicos de Pseudomonas aeruginosa provenientes de secuenciación de lecturas largas mediante tecnología illumina, este tipo de datos permite trabajar con lecturas reales o en crudo de secuenciación genómica.   
 Las secuencias de trabajo fueron las siguientes:     
 1.	Pseudomonas aeruginosa: Illumina sequencing of 2026CB-00371 (SRR38520180)    
-Tamaño: 151.8MB  
+Tamaño: 490.6 Mb   
 Contenido de GC: 65.8%   
-Fecha de publicación: 026-05-12    
+Fecha de publicación: 12-05-2026   
+Procedencia: Texas Department of State Health Services, Estados Unidos      
   
 2.	Pseudomonas aeruginosa genomic sequencing of bacterial isolate 2026CH_00024 (SRR38509012)  
-Tamaño: 94.5MB  
-Contenido de GC: 66%  
-Fecha de publicación: 2026-05-11  
- ## Metodología de Ensamblaje
+Tamaño: 332.9 Mb   
+Contenido de GC: 66%   
+Fecha de publicación: 11-05-2026   
+Procedencia: Wyoming Public Health Laboratory, Estados Unidos  
+
+ ## Metodología 
 El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`spades.py`). El proceso se dividió en los siguientes pasos:
 
 1. **Preprocesamiento:** Las secuencias fueron descargadas (utilizando `prefetch` y `fasterq-dump`) y se realizó un control de calidad y limpieza de adaptadores mediante **Trim Galore**.
