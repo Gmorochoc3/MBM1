@@ -37,4 +37,3 @@ Fecha de publicación: 2026-05-11
 ## Contribución individual  
 Resumen breve  
 ## Cómo reproducir (scripts)
-MV
