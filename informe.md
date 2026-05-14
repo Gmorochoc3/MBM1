@@ -92,6 +92,10 @@ Figura 10. Resultado del uso de la herramienta spades
 
 ## CONCLUSIONES   
 
+Se estableció un diagrama de flujo junto con la validación otorgada por BUSCO, se estableció un metodología factible para la identificación de genes de resistencia antimicrobiana.
+
+Se reconstruyó genomas baterianos por medio de librerias SRR38520180 y SRR38509012 arrojando contigs.
+
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
 World Health Organization. (2024). Antimicrobial resistance. WHO – Antimicrobial resistance
