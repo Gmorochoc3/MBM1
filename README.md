@@ -38,4 +38,3 @@ Procedencia: Texas Department of State Health Services, Estados Unidos
 ## Contribución individual  
 Resumen breve  
 ## Cómo reproducir (scripts)  
-(SRX33263876, SRR38397210)
