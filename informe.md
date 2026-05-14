@@ -1,11 +1,12 @@
 # INFORME DEL PROYECTO FINAL DE HERRAMIENTAS ÓMICAS I
-## INTEGRANTES  
-## TEMA  
-## PROBLEMA BIOLÓGICO
-La resistencia antimicrobiana (RAM) es considerada una de las principales amenazas para la salud pública mundial debido al aumento de bacterias multirresistentes que disminuyen la eficacia de los tratamientos antibióticos. *Pseudomonas aeruginosa* es un patógeno oportunista asociado principalmente a infecciones hospitalarias y posee una elevada capacidad para desarrollar resistencia mediante bombas de eflujo, mutaciones cromosómicas y adquisición de genes de resistencia a través de plásmidos y otros elementos móviles (Pang et al., 2019). Además, esta bacteria ha sido catalogada por la Organización Mundial de la Salud (OMS) como un patógeno prioritario crítico para el desarrollo de nuevos antibióticos (WHO, 2024).
-
-En este proyecto se busca identificar genes de resistencia antimicrobiana presentes en dos diferentes aislados clínicos de *Pseudomonas aeruginosa* mediante el uso de herramientas ómicas y análisis bioinformático.  
-
+## INTEGRANTES 
+José Proaño,
+Génesis Morocho,
+Mayra Erazo,
+Samanta Bucheli,
+Michelle Yugcha.
+## TEMA 
+Identificación de genes de resistencia antimicriobiana de diferentes aislados clínicos de Pseudomonas aeruginosa
 ## PREGUNTA DE INVESTIGACIÓN
 ¿Qué genes de resistencia antimicrobiana pueden identificarse mediante el ensamblaje y análisis bioinformático de diferentes aislados clínicos de *Pseudomonas aeruginosa*?   
 
