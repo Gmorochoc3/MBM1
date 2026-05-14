@@ -39,7 +39,7 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 4. **Evaluación:** Se utilizó **BUSCO** (`busco -m genome`) para evaluar la calidad del ensamblaje obtenido en los archivos `contigs.fasta`.
 
 ## Flujo de trabajo
-## Flujo de trabajo
+
 
 El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
