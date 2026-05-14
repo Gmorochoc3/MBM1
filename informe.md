@@ -43,6 +43,7 @@ Figura 3. Detalle de la búsqueda de la secuencia SRR38520180
 Los datos genómicos descasrgados en formato FASTQ fueron almacenados en zenodo:  
 El proceso de descarga se lo realizo utilizando el comando prefetch como se lo vizualiza en la Figura 4
 Se utilizo este comando ya que nos ayuda a tener una descarga mas eficiente y mas rapida en relacion a la que nos da NCBI
+
 Figura 4. Utilización del comando prefetch
 
 <img width="492" height="313" alt="image" src="https://github.com/user-attachments/assets/a43fc38d-fa80-42a9-afdd-bac47a507cea" /> 
@@ -81,6 +82,7 @@ Figura 9. Ensamblaje de novo con herramienta spades
 <img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
 
 Donde vamos a tener los sguientes archivos
+
 Figura 10. Resultado del uso de la herramienta spades
 
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
