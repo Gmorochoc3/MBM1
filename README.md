@@ -1,5 +1,5 @@
 # MBM_G1  
-# Proyecto: Identificación de genes de resistencia antimicriobiana de diferentes aislados clínicos de Pseudomonas aeruginosa    
+# Proyecto: Identificación de genes de resistencia antimicriobiana de aislados clínicos de Pseudomonas aeruginosa    
 ## Integrantes  
 - José Proaño  
 - Génesis Morocho  
