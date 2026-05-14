@@ -1,12 +1,18 @@
 # INFORME DEL PROYECTO FINAL DE HERRAMIENTAS ÓMICAS I
 ## INTEGRANTES 
-José Proaño,
-Génesis Morocho,
-Mayra Erazo,
-Samanta Bucheli,
-Michelle Yugcha.
+José Proaño  
+Génesis Morocho  
+Mayra Erazo  
+Samanta Bucheli  
+Michelle Yugcha  
 ## TEMA 
-Identificación de genes de resistencia antimicriobiana de diferentes aislados clínicos de Pseudomonas aeruginosa
+Identificación de genes de resistencia antimicriobiana de aislados clínicos de *Pseudomonas aeruginosa*
+
+## PROBLEMA BIOLÓGICO 
+La resistencia antimicrobiana (RAM) es considerada una de las principales amenazas para la salud pública mundial debido al aumento de bacterias multirresistentes que disminuyen la eficacia de los tratamientos antibióticos. *Pseudomonas aeruginosa* es un patógeno oportunista asociado principalmente a infecciones hospitalarias y posee una elevada capacidad para desarrollar resistencia mediante bombas de eflujo, mutaciones cromosómicas y adquisición de genes de resistencia a través de plásmidos y otros elementos móviles (Pang et al., 2019). Además, esta bacteria ha sido catalogada por la World Health Organization como un patógeno prioritario crítico para el desarrollo de nuevos antibióticos (WHO, 2024).  
+
+En este proyecto se busca identificar genes de resistencia antimicrobiana presentes en aislados clínicos de *Pseudomonas aeruginosa* mediante el uso de herramientas ómicas. 
+
 ## PREGUNTA DE INVESTIGACIÓN
 ¿Qué genes de resistencia antimicrobiana pueden identificarse mediante el ensamblaje y análisis bioinformático de diferentes aislados clínicos de *Pseudomonas aeruginosa*?   
 
@@ -108,7 +114,7 @@ Figura 10. Resultado del uso de la herramienta spades
 
 Se estableció un diagrama de flujo junto con la validación otorgada por BUSCO, se estableció un metodología factible para la identificación de genes de resistencia antimicrobiana.
 
-Se reconstruyó genomas baterianos por medio de librerias SRR38520180 y SRR38509012 arrojando contigs.
+Se reconstruyó genomas bacterianos por medio de librerias SRR38520180 y SRR38509012 arrojando contigs.
 
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
