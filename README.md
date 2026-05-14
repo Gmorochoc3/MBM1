@@ -38,6 +38,20 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 3. **Ensamblaje De Novo:** Se utilizó el comando `spades.py` con las lecturas limpias (`_val_1.fq.gz` y `_val_2.fq.gz`), configurando 8 hilos de procesamiento (`-t 8`) y una memoria de 15 GB (`-m 15`).
 4. **Evaluación:** Se utilizó **BUSCO** (`busco -m genome`) para evaluar la calidad del ensamblaje obtenido en los archivos `contigs.fasta`.
 
+## Herramientas bioinformáticas empleadas
+
+SRA Toolkit: descarga de secunencias crudas a partir de CNBI.
+
+FastQC: revisión de calidad de lecturas
+
+Trim Galore: permite la limpieza de los datos crudos
+
+SPAdes: formación de conting
+
+BUSCO: validación de la secuencia
+
+CARD: identificación de genes de resistencia
+
 ## Flujo de trabajo
 
 
