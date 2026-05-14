@@ -53,20 +53,24 @@ Para el control de calidad se utilizo el comando fastqc *.fastq -t 8 con el cual
 <img width="328" height="245" alt="image" src="https://github.com/user-attachments/assets/e0d7b9b2-5324-44a5-a434-5cdbcca7ff0e" />
 ### Limpieza de lecturas
 para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codigo trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq    
+
 <img width="354" height="381" alt="image" src="https://github.com/user-attachments/assets/e6b7f79a-e18e-476c-a394-90ef8e577cf0" />  
+
 <img width="343" height="388" alt="image" src="https://github.com/user-attachments/assets/81ea1002-1009-4c14-bb94-c44209e7d91f" />
 
 
 ### Ensamblaje de novo   
 Para el ensable de los datos obtenidos se utilizo Spades: spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
 <img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
-Donde vamos a tener los sguientes archivos  
+Donde vamos a tener los sguientes archivos
+
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
 
 
 ### Análisis de resistencia antimicrobiana  
 
 ## CONCLUSIONES   
+
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
 World Health Organization. (2024). Antimicrobial resistance. WHO – Antimicrobial resistance
