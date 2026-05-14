@@ -80,6 +80,7 @@ J --> K[Genes de resistencia detectados]
 ## Conclusiones
 
 Se estableció un diagrama de flujo junto con la validación otorgada por BUSCO, se estableció un metodología factible para la identificación de genes de resistencia antimicrobiana.
+
 Se reconstruyó genomas baterianos por medio de librerias SRR38520180 y SRR38509012 arrojando contigs.
 
 ## Contribución individual  
