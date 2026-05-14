@@ -40,17 +40,17 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 
 ## Herramientas bioinformáticas empleadas
 
-SRA Toolkit: descarga de secunencias crudas a partir de CNBI.
+1. SRA Toolkit: descarga de secunencias crudas a partir de CNBI.
 
-FastQC: revisión de calidad de lecturas
+2. FastQC: revisión de calidad de lecturas
 
-Trim Galore: permite la limpieza de los datos crudos
+3. Trim Galore: permite la limpieza de los datos crudos
 
-SPAdes: formación de conting
+4. SPAdes: formación de conting
 
-BUSCO: validación de la secuencia
+5. BUSCO: validación de la secuencia
 
-CARD: identificación de genes de resistencia
+6. CARD: identificación de genes de resistencia
 
 ## Flujo de trabajo
 
