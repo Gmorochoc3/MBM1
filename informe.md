@@ -63,7 +63,6 @@ Donde vamos a tener los sguientes archivos
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
 
 
-### Identificación de plásmidos  
 ### Análisis de resistencia antimicrobiana  
 
 ## CONCLUSIONES   
