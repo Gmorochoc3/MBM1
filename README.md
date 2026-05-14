@@ -39,6 +39,85 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 4. **Evaluación:** Se utilizó **BUSCO** (`busco -m genome`) para evaluar la calidad del ensamblaje obtenido en los archivos `contigs.fasta`.
 
 ## Flujo de trabajo
+El flujo de trabajo bioinformático del proyecto describe de manera secuencial las etapas utilizadas para identificar genes de resistencia antimicrobiana en aislados clínicos de Pseudomonas aeruginosa a partir de datos de secuenciación genómica obtenidos desde bases públicas.
+
+1. Obtención de datos desde SRA (NCBI)
+
+El análisis inicia con la búsqueda y descarga de secuencias genómicas almacenadas en la base de datos pública Sequence Read Archive (SRA) del NCBI.
+
+Los aislados seleccionados fueron:
+
+SRR38520180
+SRR38509012
+
+Estas secuencias corresponden a lecturas Illumina en formato FASTQ.
+
+2. Descarga de secuencias
+
+Para descargar los datos se utilizó la herramienta prefetch, la cual permite obtener los archivos de secuenciación desde NCBI de manera eficiente.
+
+Posteriormente, los datos descargados fueron convertidos al formato FASTQ para su procesamiento bioinformático.
+
+Resultado:
+
+Archivos FASTQ crudos.
+3. Control de calidad (FastQC)
+
+Los archivos FASTQ obtenidos fueron analizados mediante la herramienta FastQC con el objetivo de evaluar la calidad de las lecturas genómicas.
+
+En esta etapa se analizaron parámetros como:
+
+calidad de bases (Phred score),
+contenido GC,
+presencia de adaptadores,
+longitud de lecturas,
+posibles errores de secuenciación.
+
+Resultado:
+
+Reportes de calidad en formato HTML.
+4. Limpieza de lecturas (TrimGalore)
+
+Posteriormente, las lecturas fueron procesadas con TrimGalore para eliminar adaptadores y regiones de baja calidad que podrían afectar el ensamblaje genómico.
+
+Además, se filtraron lecturas demasiado cortas o con baja confiabilidad.
+
+Resultado:
+
+Lecturas filtradas y limpias listas para ensamblaje.
+5. Ensamblaje de novo (SPAdes)
+
+Las lecturas filtradas fueron ensambladas mediante la herramienta SPAdes utilizando un enfoque de ensamblaje de novo.
+
+Este proceso permite reconstruir fragmentos del genoma bacteriano sin utilizar un genoma de referencia.
+
+Resultado:
+
+Contigs ensamblados del genoma de Pseudomonas aeruginosa.
+6. Evaluación del ensamblaje (QUAST)
+
+Los contigs obtenidos fueron evaluados utilizando QUAST para determinar la calidad del ensamblaje generado.
+
+Se analizaron métricas como:
+
+número de contigs,
+longitud total,
+N50,
+continuidad del ensamblaje.
+
+Resultado:
+
+Reporte de calidad del ensamblaje.
+7. Detección de genes de resistencia antimicrobiana
+
+Finalmente, los contigs ensamblados fueron analizados utilizando bases de datos y herramientas especializadas como CARD y ResFinder para identificar genes asociados a resistencia antimicrobiana.
+
+Esta etapa permitió detectar genes relacionados con resistencia a diferentes familias de antibióticos presentes en los aislados clínicos analizados.
+
+Resultado:
+
+Identificación de genes de resistencia antimicrobiana
+
 ```mermaid
 flowchart TD
 
