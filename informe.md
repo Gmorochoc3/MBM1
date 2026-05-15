@@ -64,7 +64,7 @@ Figura 3. Detalle de la búsqueda de la secuencia SRR38520180
 El proceso de descarga se lo realizo utilizando el comando prefetch como se lo vizualiza en la Figura 4.  
 Se utilizo este comando ya que nos ayuda a tener una descarga mas eficiente y mas rapida en relacion a la que nos da NCBI.  
 
-Figura 4. Utilización del comando prefetch
+Figura 4. Utilización del comando prefetch  
 <img width="492" height="313" alt="image" src="https://github.com/user-attachments/assets/a43fc38d-fa80-42a9-afdd-bac47a507cea" /> 
 
 Posterior a ello se lo convirtio en formato fastq con el comando fasterq-dump SRR38520180 --split-files
@@ -102,11 +102,11 @@ Figura 9. Ensamblaje de novo con herramienta spades
 <img width="931" height="746" alt="image" src="https://github.com/user-attachments/assets/6a5e6ef8-b32d-4479-b158-528fff683575" />  
 
 
-<img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />  
+<img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />    
 
-Donde vamos a tener los sguientes archivos  
+Donde vamos a tener los sguientes archivos    
 
-Figura 10. Resultado del uso de la herramienta spades  
+Figura 10. Resultado del uso de la herramienta spades    
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />  
 
 ## PROCESAMIENTO DE INFORMACIÓN GENÓMICA EN LA PLATAFORMA GALAXY
@@ -126,7 +126,7 @@ Figura 12. History denominado "Genes de resistencia en aislados de Pseudomonas a
 ### Predicción de secuencias plasmídicas y cromosómicas
 Para la predicción de secuencias plasmídicas se utilizó la herramienta PlasFlow, diseñado para clasificar secuencias metagenómicas y genómicas según su origen plasmídico o cromosómico. PlasFlow funciona mediante un conjunto de scripts que emplean redes neuronales entrenadas con secuencias bacterianas conocidas, permitiendo clasificar los contigs de acuerdo con diferentes grupos taxonómicos bacterianos y estimar la probabilidad de origen plasmídico. La herramienta ha reportado una precisión aproximada del 96% en la identificación de secuencias plasmídicas en datasets genómicos y metagenómicos (Krawczyk et al., 2018).    
 
-En este proyecto, PlasFlow permitió identificar posibles contigs plasmídicos en los aislados clínicos de P. aeruginosa, facilitando el análisis de elementos genéticos móviles potencialmente asociados a genes de resistencia antimicrobiana.    
+En este proyecto, PlasFlow permitió identificar posibles contigs plasmídicos en los aislados clínicos de *P. aeruginosa*, facilitando el análisis de elementos genéticos móviles potencialmente asociados a genes de resistencia antimicrobiana.    
 
 Con resultado se obtuvo la clasificación de los contigs de forma tabulada de la secuencia SRR38509012 (Figura 13) y de la secuencia SRR38520180 (Figura 14). De la secuencia SRR38509012 que contenía 97 contigs, estos se clasificaron principalmente, 46 contigs como parte de ADN cromosómico de proteobacterias  y 18 contigs de ADN plasmídico de proteobacterias, como se muestra en la Figura 15. De igual forma,  se da en la secuencia SRR38520180 que presenta 146 contigs distribuidos principalmente como 73 contigs de ADN cromosómico de proteobacterias  y 26 contigs de ADN plasmídico de proteobacterias (Figura 16). Además, en ambas secuencias es predominante en tamaño de pares de bases el ADN cromosómico.   
 
