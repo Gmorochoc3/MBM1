@@ -72,7 +72,7 @@ Posterior a ello se lo convirtio en formato fastq con el comando fasterq-dump SR
 
 Figura 5. Utilización de comando fasterq-dump  
 
-<img width="400" height="50" alt="image" src="https://github.com/user-attachments/assets/856932a5-ab86-4c5a-93b7-f717d5c023b3" />    
+<img width="400" height="20" alt="image" src="https://github.com/user-attachments/assets/856932a5-ab86-4c5a-93b7-f717d5c023b3" />    
 <img width="498" height="110" alt="image" src="https://github.com/user-attachments/assets/2e09b630-d602-4e1a-bb38-5b2921649d89" />
 
 
