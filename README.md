@@ -45,9 +45,9 @@ Procedencia: Wyoming Public Health Laboratory, Estados Unidos
 
 4. SPAdes: formación de conting
 
-5. PlastFlow: predicción de ADN plasmídico o cromosómico  
+5. PlastFlow: Predicción de ADN plasmídico o cromosómico  
 
-6. Staramr: buscar genes de resistencia antimicrobiana  
+6. Staramr: Buscar genes de resistencia antimicrobiana  
 
 ### Flujo de trabajo
 
@@ -55,9 +55,9 @@ El workflow bioinformático inició con la descarga de secuencias genómicas des
 
 Posteriormente, se realizó el control de calidad de las lecturas utilizando FastQC y la limpieza de adaptadores y lecturas de baja calidad mediante TrimGalore.  
 
-Las lecturas filtradas fueron ensambladas de novo con SPAdes para obtener contigs genómicos, los cuales fueron evaluados mediante QUAST.  
+Las lecturas filtradas fueron ensambladas de novo con SPAdes para obtener contigs genómicos.
 
-Finalmente, se identificaron genes de resistencia antimicrobiana utilizando herramientas y bases de datos especializadas como CARD y ResFinder.
+Finalmente, se diferenció el ADN Plasmídico y genómico con Pastflow y se identificaron genes de resistencia antimicrobiana con Staramr.
 
 Diagrama 1. FLujo de trabajo bioinformático
 ```mermaid
@@ -77,11 +77,11 @@ F --> G[Ensamblaje de novo<br/>SPAdes]
 
 G --> H[Contigs ensamblados]
 
-H --> I[Evaluación del ensamblaje<br/>QUAST / Bandage]
+H --> I[Evaluación del ensamblaje]
 
-H --> J[Detección de genes AMR<br/>CARD / ResFinder / AMRFinderPlus]
+H --> J[Detección de genes />PastFlow ]
 
-J --> K[Genes de resistencia detectados]
+J --> K[Genes de resistencia detectados >/Staramr]
 
 ```
 ## Resultados  
