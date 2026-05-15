@@ -139,6 +139,8 @@ Se reconstruyó genomas bacterianos por medio de librerias SRR38520180 y SRR3850
 
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
+
 World Health Organization. (2024). Antimicrobial resistance. WHO – Antimicrobial resistance
 Pacheco T, Bustos-Cruz RH, Abril D, Arias S, Uribe L, Rincón J, García JC, Escobar-Perez J. Pseudomonas aeruginosa Coharboring BlaKPC-2 and BlaVIM-2 Carbapenemase Genes. Antibiotics (Basel). 2019 Jul 20;8(3):98. doi: 10.3390/antibiotics8030098. PMID: 31330771; PMCID: PMC6784026. https://pmc.ncbi.nlm.nih.gov/articles/PMC6784026/pdf/antibiotics-08-00098.pdf
+
 Cuesta, D., Vallejo, M., Guerra, K., Cárdenas, J., Hoyos, C., Loaiza, E., & Villegas, M. V. (2012). Infección intrahospitalaria por Pseudomonas aeruginosa multirresistente: Estudio de casos y controles. Medicina U.P.B., 31(2), 135–142. file:///C:/Users/Samanta/Downloads/ezapatarestrepo,+Art%C3%ADculo+original+5.pdf
