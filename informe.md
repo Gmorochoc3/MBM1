@@ -125,6 +125,12 @@ Los datos genómicos descargados     que contiene los contigs en formato FASTA f
 El análisis de la resistencia antimicrobiana se realizó utilizando la plataforma Galaxy, y se hizo uso del tutorial "Antibiotic resistance detection" que se encuentra en el siguiente enlace: https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html.   
 Se creó un History denominado "Genes de resistencia en aislados de Pseudomonas aeruginosa" con el link de acceso: https://galaxy-main.usegalaxy.org/u/michelle_yugcha/h/genes-de-resistencia-en-aislados-de-pseudomonas-aeruginosa
 
+## APLICACIONES
+
+En un estudio realizado en Colombia se identificaron 139 pacientes con infección por Pseudomonas aeruginosa, de los cuales 54 presentaron cepas multirresistentes (resistentes a tres o más grupos de antibióticos) y 85 aislamientos sensibles a un máximo de dos grupos antimicrobianos. Estos hallazgos evidencian la elevada prevalencia de resistencia bacteriana en entornos hospitalarios y su impacto en la complejidad terapéutica.
+
+De manera complementaria, otro estudio reportó la presencia de cepas portadoras de los genes blaKPC-2 y blaVIM-2 en pacientes hospitalizados, genes asociados a mecanismos de resistencia a carbapenémicos. Este hallazgo resalta el alto riesgo clínico que representan estas bacterias multirresistentes, debido a la limitada disponibilidad de opciones terapéuticas eficaces y al potencial incremento en la morbimortalidad hospitalaria.
+
 ## CONCLUSIONES   
 
 Se estableció un diagrama de flujo junto con la validación otorgada por BUSCO, se estableció un metodología factible para la identificación de genes de resistencia antimicrobiana.
@@ -134,3 +140,5 @@ Se reconstruyó genomas bacterianos por medio de librerias SRR38520180 y SRR3850
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
 World Health Organization. (2024). Antimicrobial resistance. WHO – Antimicrobial resistance
+Pacheco T, Bustos-Cruz RH, Abril D, Arias S, Uribe L, Rincón J, García JC, Escobar-Perez J. Pseudomonas aeruginosa Coharboring BlaKPC-2 and BlaVIM-2 Carbapenemase Genes. Antibiotics (Basel). 2019 Jul 20;8(3):98. doi: 10.3390/antibiotics8030098. PMID: 31330771; PMCID: PMC6784026. https://pmc.ncbi.nlm.nih.gov/articles/PMC6784026/pdf/antibiotics-08-00098.pdf
+Cuesta, D., Vallejo, M., Guerra, K., Cárdenas, J., Hoyos, C., Loaiza, E., & Villegas, M. V. (2012). Infección intrahospitalaria por Pseudomonas aeruginosa multirresistente: Estudio de casos y controles. Medicina U.P.B., 31(2), 135–142. file:///C:/Users/Samanta/Downloads/ezapatarestrepo,+Art%C3%ADculo+original+5.pdf
