@@ -79,7 +79,7 @@ Figura 5. Utilización de comando fasterq-dump
 Para el control de calidad se utilizo el comando fastqc *.fastq -t 8 con el cual nos ayuda a correr todos los archivos en conjunto  
 Figura 6. Aplicación de comando fastqc -t 8
 
-<img width="328" height="245" alt="image" src="https://github.com/user-attachments/assets/e0d7b9b2-5324-44a5-a434-5cdbcca7ff0e" />
+<img width="400" height="245" alt="image" src="https://github.com/user-attachments/assets/e0d7b9b2-5324-44a5-a434-5cdbcca7ff0e" />
 
 ### Limpieza de lecturas
 Para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codigo trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a 
