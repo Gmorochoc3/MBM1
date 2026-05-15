@@ -42,7 +42,37 @@ PlastFlow: predicción de ADN plasmídico o cromosómico
 Staramr: buscar genes de resistencia antimicrobiana
 
 WORKFLOW
+El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
+Posteriormente, se realizó el control de calidad de las lecturas utilizando FastQC y la limpieza de adaptadores y lecturas de baja calidad mediante TrimGalore.  
+
+Las lecturas filtradas fueron ensambladas de novo con SPAdes para obtener contigs genómicos.
+
+Finalmente, se diferenció el ADN Plasmídico y genómico con Pastflow y se identificaron genes de resistencia antimicrobiana con Staramr.
+
+Diagrama 1. FLujo de trabajo bioinformático
+```mermaid
+flowchart TD
+
+A[Datos SRA - NCBI<br/>SRR38520180<br/>SRR38509012] --> B[Descarga de secuencias<br/>prefetch / fasterq-dump]
+
+B --> C[Archivos FASTQ crudos]
+
+C --> D[Control de calidad<br/>FastQC]
+
+D --> E[Limpieza de lecturas<br/>TrimGalore]
+
+E --> F[Lecturas filtradas]
+
+F --> G[Ensamblaje de novo<br/>SPAdes]
+
+G --> H[Contigs ensamblados]
+
+H --> I[Evaluación del ensamblaje]
+
+H --> J[Detección de genes /PastFlow ]
+
+J --> K[Genes de resistencia detectados /Staramr]
 ### Obtención y preparación de datos 
 
 Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SRA) del National Center for Biotechnology Information (NCBI), donde se utilizó la terminología “*Pseudomonas aeruginosa* clinical isolate illumina”, como se muestra en la Figura 1.   
