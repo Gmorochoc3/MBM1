@@ -118,12 +118,33 @@ Figura 10. Resultado del uso de la herramienta spades
 
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />  
 
+
 ### Análisis de resistencia antimicrobiana  
 
 Los datos genómicos descargados     que contiene los contigs en formato FASTA fueron almacenados en zenodo: https://doi.org/10.5281/zenodo.20171964. 
 
 El análisis de la resistencia antimicrobiana se realizó utilizando la plataforma Galaxy, y se hizo uso del tutorial "Antibiotic resistance detection" que se encuentra en el siguiente enlace: https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html.   
 Se creó un History denominado "Genes de resistencia en aislados de Pseudomonas aeruginosa" con el link de acceso: https://galaxy-main.usegalaxy.org/u/michelle_yugcha/h/genes-de-resistencia-en-aislados-de-pseudomonas-aeruginosa
+
+
+### Resumen de resultados
+
+### Para el resumen de resultados se utilizó Galaxi.
+
+Figura 10. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
+
+
+<img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/17afd988-ab47-4362-99f6-30f179c07ced" />
+
+Nota: 
+
+
+Figura 11. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
+
+<img width="959" height="476" alt="image" src="https://github.com/user-attachments/assets/35f54c48-a67e-42a9-90c8-808bf233e824" />
+Nota: 
+
+
 
 ## APLICACIONES
 
