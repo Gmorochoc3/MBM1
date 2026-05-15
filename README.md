@@ -39,11 +39,12 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 1. **Preprocesamiento:** Las secuencias fueron descargadas (utilizando `prefetch` y `fasterq-dump`) y se realizó un control de calidad y limpieza de adaptadores mediante **Trim Galore**.
 2. **Limpieza de lecturas:** Se ejecutó el recorte de adaptadores (`-a "file:./my_adapters.fa"`) con parámetros de calidad (`--quality 30`) y longitud mínima (`--length 30`).
 3. **Ensamblaje De Novo:** Se utilizó el comando `spades.py` con las lecturas limpias (`_val_1.fq.gz` y `_val_2.fq.gz`), configurando 8 hilos de procesamiento (`-t 8`) y una memoria de 15 GB (`-m 15`).
-4. **Evaluación:** Se utilizó **BUSCO** (`busco -m genome`) para evaluar la calidad del ensamblaje obtenido en los archivos `contigs.fasta`.
+4. Plasflow
+5. Staramr
 
 ## Herramientas bioinformáticas empleadas
 
-1. SRA Toolkit: descarga de secuencias crudas a partir de CNBI.
+1. SRA: descarga de secuencias crudas a partir de CNBI.
 
 2. FastQC: revisión de calidad de lecturas
 
@@ -51,12 +52,11 @@ El ensamblaje de los genomas se realizó utilizando la herramienta **SPAdes** (`
 
 4. SPAdes: formación de conting
 
-5. BUSCO: validación de la secuencia
+5. PlastFlow: predicción de ADN plasmídico o cromosómico  
 
-6. CARD: identificación de genes de resistencia
+6. Staramr: buscar genes de resistencia antimicrobiana  
 
 ## Flujo de trabajo
-
 
 El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
