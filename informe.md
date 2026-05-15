@@ -133,9 +133,13 @@ De manera complementaria, otro estudio reportó la presencia de cepas portadoras
 
 ## CONCLUSIONES   
 
-Se estableció un diagrama de flujo junto con la validación otorgada por BUSCO, se estableció un metodología factible para la identificación de genes de resistencia antimicrobiana.
+El uso de diferentes plataformas bioinformáticas nos permitió realizar un análisis mucho mas completo, organizado y confiable en lo que respecta a la identificación de genes de resistencia antimicrobiana en Pseudomonas aeruginosa.
 
-Se reconstruyó genomas bacterianos por medio de librerias SRR38520180 y SRR38509012 arrojando contigs.
+La base de datos NCBI y el repositorio SRA ayudaron con el acceso a información genómica de alta calidad. Por otro lado, la plataforma Galaxy y la computadora virtual con Ubuntu ofrecieron un espacio accesible, donde poder manejar archivos extensos para ejecutar análisis sin necesidad de infraestructura especializada. 
+
+Las herramientas como FASTQC y Trim Galore permiten evaluar y depurar la calidad de los datos, mientras que SPAdes facilitó el ensamblaje genómico y Staramr permitió detectar genes de resistencia de manera rápida y precisa.
+
+En conjunto, estas plataformas optimizan el tiempo de análisis, nos ayudaron a reducir errores y fortalecen la vigilancia epidemiológica, aportando información clave para el diagnóstico y la toma de decisiones terapéuticas frente a cepas multirresistentes.
 
 ## BIBLIOGRAFÍA
 Pang, Z., Raudonis, R., Glick, B. R., Lin, T. J., & Cheng, Z. (2019). Antibiotic resistance in *Pseudomonas aeruginosa*: Mechanisms and alternative therapeutic strategies. Biotechnology Advances, 37(1), 177–192. https://doi.org/10.1016/j.biotechadv.2018.11.013   
