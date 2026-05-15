@@ -35,7 +35,7 @@ Procedencia: Wyoming Public Health Laboratory, Estados Unidos
 
  ## Metodología 
 
-# Herramientas bioinformáticas empleadas
+### Herramientas bioinformáticas empleadas
 
 1. SRA: descarga de secuencias crudas a partir de CNBI.
 
@@ -49,7 +49,7 @@ Procedencia: Wyoming Public Health Laboratory, Estados Unidos
 
 6. Staramr: buscar genes de resistencia antimicrobiana  
 
-# Flujo de trabajo
+### Flujo de trabajo
 
 El workflow bioinformático inició con la descarga de secuencias genómicas desde la base de datos SRA del NCBI correspondientes a los aislados clínicos SRR38520180 y SRR38509012.  
 
