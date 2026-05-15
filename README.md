@@ -57,7 +57,7 @@ Posteriormente, se realizó el control de calidad de las lecturas utilizando Fas
 
 Las lecturas filtradas fueron ensambladas de novo con SPAdes para obtener contigs genómicos.
 
-Finalmente, se diferenció el ADN Plasmídico y genómico con Pastflow y se identificaron genes de resistencia antimicrobiana con Staramr.
+Finalmente, se diferenció el ADN Plasmídico y genómico con PlasFlow y se identificaron genes de resistencia antimicrobiana con Staramr.
 
 Diagrama 1. FLujo de trabajo bioinformático
 ```mermaid
@@ -79,9 +79,9 @@ G --> H[Contigs ensamblados]
 
 H --> I[Evaluación del ensamblaje]
 
-H --> J[Detección de genes />PastFlow ]
+H --> J[Detección de genes /PlasFlow ]
 
-J --> K[Genes de resistencia detectados >/Staramr]
+J --> K[Genes de resistencia detectados /Staramr]
 
 ```
 ## Resultados  
