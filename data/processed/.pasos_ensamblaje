@@ -1,0 +1,39 @@
+Para el ejemplo descarguemos del bioproyecto unas secuencias fastq SRR38520180 
+Para el ejemplo descarguemos del bioproyecto unas secuencias fastq SRR38509012 
+
+prefetch SRR38520180 ## descargar
+prefetch SRR38509012 
+
+fasterq-dump SRR38520180 --split-files  ##hacer fastq
+fasterq-dump SRR38509012 --split-files
+ls
+pigz SRR38520180_1.fastq -p 6  ##para comprimir archivos si es que son muy grandes OPCIONAL
+pigz SRR38520180_2.fastq -p 6
+ls
+
+conda install bioconda::trim-galore
+sudo apt-get install spades
+
+fastqc *.fastq -t 8  ##control de calidad
+
+
+gedit SRR_Acc_List.txt   ##para meter los codigos para correr for i in no es necesario solo si tenemos mucha información 
+
+for i in $(cat SRR_Acc_List.txt); do trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" ./RawReads/"$i""_1.fastq.gz" ./RawReads/"$i""_2.fastq.gz"; done
+
+## recorta adaptadores y limpieza de lecturas de baja calidad
+
+trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq 
+
+trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38509012_1.fastq /home/usuario/Escritorio/PF/SRR38509012_2.fastq 
+
+
+ls
+mkdir Output_Spades
+#####Cambiar el nombre de cada libreria en -o
+##correr fuera de la carpeta ensamblar
+spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
+
+spades.py -1 TrimmedReads/SRR38520180_1_val_1.fq.gz -2 TrimmedReads/SRR38520180_2_val_2.fq.gz -o Output_Spades/SRR38520180 -t 8 -m 15
+
+
