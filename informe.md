@@ -186,13 +186,13 @@ Figura 16. Distribución  de contigs de la secuencia SRR38520180 usando PlasFlow
 
 ### Análisis de resistencia antimicrobiana  
 
-Figura 10. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
+Figura 17. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
 <img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/17afd988-ab47-4362-99f6-30f179c07ced" />
 
-Nota: En la primera secuencia se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a ceftacidima y meropenem, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
+Nota: En la primera secuencia se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a cefepima, ceftazidima, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
 
 
-Figura 11. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
+Figura 18. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
 <img width="959" height="476" alt="image" src="https://github.com/user-attachments/assets/35f54c48-a67e-42a9-90c8-808bf233e824" />
 
 Nota: En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, ya su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.  
