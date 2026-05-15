@@ -4,6 +4,8 @@ Para el ejemplo descarguemos del bioproyecto unas secuencias fastq SRR38509012
 prefetch SRR38520180 ## descargar
 prefetch SRR38509012 
 
+TZ="America/Guayaquil" date
+
 fasterq-dump SRR38520180 --split-files  ##hacer fastq
 fasterq-dump SRR38509012 --split-files
 ls
@@ -22,6 +24,8 @@ gedit SRR_Acc_List.txt   ##para meter los codigos para correr for i in no es nec
 for i in $(cat SRR_Acc_List.txt); do trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" ./RawReads/"$i""_1.fastq.gz" ./RawReads/"$i""_2.fastq.gz"; done
 
 ## recorta adaptadores y limpieza de lecturas de baja calidad
+
+TZ="America/Guayaquil" date
 
 trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq 
 
