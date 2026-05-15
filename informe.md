@@ -88,8 +88,7 @@ Para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codig
 "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq  
 
 Figura 7. Uso de la herramienta trimgalore para limpieza de lecturas  
-<img width="400" height="30" alt="image" src="https://github.com/user-attachments/assets/69f689d3-44e6-42c1-92e3-7c5fc35bf78c" />  
-
+<img width="354" height="30" alt="image" src="https://github.com/user-attachments/assets/69f689d3-44e6-42c1-92e3-7c5fc35bf78c" />  
 <img width="354" height="381" alt="image" src="https://github.com/user-attachments/assets/e6b7f79a-e18e-476c-a394-90ef8e577cf0" />  
 
 Figura 8. Uso de la herramienta trimgalore para limpieza de lecturas
