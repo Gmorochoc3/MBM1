@@ -100,16 +100,18 @@ Figura 8. Uso de la herramienta trimgalore para limpieza de lecturas
 ### Ensamblaje de novo   
 Para el ensable de los datos obtenidos se utilizo Spades: spades.py -1 TrimmedReads/SRR38509012_1_val_1.fq.gz -2 TrimmedReads/SRR38509012_2_val_2.fq.gz -o Output_Spades/SRR38509012 -t 8 -m 15
 
-Figura 9. Ensamblaje de novo con herramienta spades
-<img width="400" height="30" alt="image" src="https://github.com/user-attachments/assets/f2ee53f0-b1aa-48dc-a10e-33b56b2dd4af" />  
+Figura 9. Ensamblaje de novo con herramienta spades  
 
-<img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />
+<img width="931" height="746" alt="image" src="https://github.com/user-attachments/assets/6a5e6ef8-b32d-4479-b158-528fff683575" />  
+
+
+<img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />  
 
 Donde vamos a tener los sguientes archivos  
 
 Figura 10. Resultado del uso de la herramienta spades  
 
-<img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
+<img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />  
 
 ### Análisis de resistencia antimicrobiana  
 
