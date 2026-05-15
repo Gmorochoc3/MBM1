@@ -131,7 +131,7 @@ Se creó un History denominado "Genes de resistencia en aislados de Pseudomonas 
 
 ### Para el resumen de resultados se utilizó Galaxi.
 
-Figura 10. Resumen de resultados del análisis genómico de la secuencia  SRR38509012 de P. aeruginosa.
+Figura 10. Resumen de resultados del análisis genómico de la secuencia cromosomal  SRR38509012 de  Pseudomonas aeruginosa.
 
 
 <img width="886" height="438" alt="image" src="https://github.com/user-attachments/assets/17afd988-ab47-4362-99f6-30f179c07ced" />
@@ -141,7 +141,7 @@ Nota: En la primera secuencia se observa que la detección de los genes aph, bla
 
 
 
-Figura 11. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
+Figura 11. Resumen de resultados del análisis genómico de la secuencia cromosomal SRR38520180   de Pseudomonas aeruginosa.
 
 <img width="959" height="476" alt="image" src="https://github.com/user-attachments/assets/35f54c48-a67e-42a9-90c8-808bf233e824" />
 
