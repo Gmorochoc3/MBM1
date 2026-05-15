@@ -70,7 +70,7 @@ Figura 4. Utilización del comando prefetch
 
 Posterior a ello se lo convirtio en formato fastq con el comando fasterq-dump SRR38520180 --split-files
 
-Figura 5. Utilización de comando fasterq-dump  
+Figura 5. Utilización de comando fasterq-dump    
 
 <img width="400" height="30" alt="image" src="https://github.com/user-attachments/assets/856932a5-ab86-4c5a-93b7-f717d5c023b3" />    
 
