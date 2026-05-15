@@ -86,7 +86,7 @@ J --> K[Genes de resistencia detectados /Staramr]
 ```
 ## Resultados  
 
-En la primera secuencia de *Pseudomonas aeruginosa* se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a cefepima, ceftazidimam, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
+En la primera secuencia de *Pseudomonas aeruginosa* se observa que la detección de los genes aph, blaOXA, blaPAO, catB7 y fosA evidencia un perfil de multirresistencia frente a familias de antibióticos de importancia clínica. Destaca especialmente la resistencia a ceftazidima y cefepima, fármacos de última línea empleados habitualmente en el tratamiento de infecciones graves causadas por este patógeno.
 
 En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, y a su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.
 
