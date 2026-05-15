@@ -61,8 +61,6 @@ Figura 3. Detalle de la búsqueda de la secuencia SRR38520180
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/3a077da7-632d-416c-ab16-83e4f62d2287" />  
 
 
-Los datos genómicos descasrgados en formato FASTQ fueron almacenados en zenodo: https://doi.org/10.5281/zenodo.20171964
-
 El proceso de descarga se lo realizo utilizando el comando prefetch como se lo vizualiza en la Figura 4
 Se utilizo este comando ya que nos ayuda a tener una descarga mas eficiente y mas rapida en relacion a la que nos da NCBI
 
@@ -109,8 +107,11 @@ Figura 10. Resultado del uso de la herramienta spades
 
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />
 
-
 ### Análisis de resistencia antimicrobiana  
+
+Los datos genómicos descargados     que contiene los contigs en formato FASTA fueron almacenados en zenodo: https://doi.org/10.5281/zenodo.20171964. 
+
+El análisis de la resistencia antimicrobiana se realizó utilizando la plataforma Galaxy, y se hizo uso del tutorial "Antibiotic resistance detection" que se encuentra en el siguiente enlace: https://training.galaxyproject.org/training-material/topics/microbiome/tutorials/plasmid-metagenomics-nanopore/tutorial.html
 
 ## CONCLUSIONES   
 
