@@ -107,9 +107,14 @@ Figura 9. Ensamblaje de novo con herramienta spades
 
 <img align="left" width="352" height="350" alt="image" src="https://github.com/user-attachments/assets/55d7bbb9-bda1-4424-9d10-80fdef476317" />  
 
+
+
 Donde vamos a tener los sguientes archivos  
 
+
 Figura 10. Resultado del uso de la herramienta spades  
+
+
 
 <img width="432" height="966" alt="image" src="https://github.com/user-attachments/assets/f32bb00c-bf76-4957-a99f-43f26fb85819" />  
 
