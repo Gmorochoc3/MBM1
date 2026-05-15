@@ -45,13 +45,13 @@ WORKFLOW
 
 ### Obtención y preparación de datos 
 
-Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SRA) del National Center for Biotechnology Information (NCBI), donde se utilizó la terminología “*Pseudomonas aeruginosa* clinical isolate nanopore”, como se muestra en la Figura X.   
+Se realizó una búsqueda en la base de datos pública Sequence Read Archive (SRA) del National Center for Biotechnology Information (NCBI), donde se utilizó la terminología “*Pseudomonas aeruginosa* clinical isolate illumina”, como se muestra en la Figura 1.   
 
 Figura 1. Búsqueda de “Pseudomonas aeruginosa clinical isolate nanopore” en NCBI. 
 
 <img width="1480" height="900" alt="c" src="https://github.com/user-attachments/assets/05b71173-db52-434a-9b0f-a370fc3516fe" />  
 
-La selección de las secuencias de trabajo se realizó considerando que los aislados clínicos fueran de diferente procedencia, de lo cual resultaron dos genomas de *Pseudomonas aeruginosa*, identificadas como: SRR38509012; SRR38520180
+La selección de las secuencias de trabajo se realizó considerando que los aislados clínicos fueran de diferente procedencia, de lo cual resultaron dos genomas de *Pseudomonas aeruginosa*, identificadas como: SRR38509012; SRR38520180, como se muestra en las Figura 2 y Figura3.
 
 Figura 2. Detalle de la búsqueda de la secuencia SRR38509012  
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/dfa00931-27b7-4201-ad05-4fd02f57b42d" />
