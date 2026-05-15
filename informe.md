@@ -87,7 +87,7 @@ Figura 6. Aplicación de comando fastqc -t 8
 Para la limpieza y eliminacion de adaptadores se utilizo tringalore con el codigo trim_galore --paired --phred33 --cores 4 --quality 30 --length 30 --gzip --output_dir TrimmedReads -a 
 "file:./my_adapters.fa" -a2 "file:./my_adapters.fa" /home/usuario/Escritorio/PF/SRR38520180_1.fastq /home/usuario/Escritorio/PF/SRR38520180_2.fastq  
 
-Figura 7. Uso de la herramienta trimgalore para limpieza de lecturas
+Figura 7. Uso de la herramienta trimgalore para limpieza de lecturas  
 <img width="400" height="30" alt="image" src="https://github.com/user-attachments/assets/69f689d3-44e6-42c1-92e3-7c5fc35bf78c" />  
 
 <img width="354" height="381" alt="image" src="https://github.com/user-attachments/assets/e6b7f79a-e18e-476c-a394-90ef8e577cf0" />  
