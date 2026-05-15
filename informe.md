@@ -153,7 +153,15 @@ Nota: En la primera secuencia se observa que la detección de los genes aph, bla
 Figura 11. Resumen de resultados del análisis genómico de la secuencia  SRR38520180   de P. aeruginosa.
 <img width="959" height="476" alt="image" src="https://github.com/user-attachments/assets/35f54c48-a67e-42a9-90c8-808bf233e824" />
 
-Nota: En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, ya su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.
+Nota: En la segunda secuencia se identificó el gen aph(3')-IIb, el cual confiere resistencia a los aminoglucósidos, así como un conjunto de enzimas beta-lactamasas capaces de hidrolizar el anillo químico de la penicilina. Debido a esto, ya su resistencia demostrada a meropenem y ceftacidima, se clasificó a este aislamiento como una cepa multirresistente.  
+
+## INTERPRETACIÓN BIOLÓGICA 
+
+El análisis bioinformático realizado en los aislados clínicos de *Pseudomonas aeruginosa* permitió identificar genes de resistencia antimicrobiana asociados principalmente a contigs clasificados como ADN cromosómico, mientras que no se detectaron genes de resistencia en secuencias plasmídicas predichas mediante la herramienta PlasFlow.  
+
+Estos resultados sugieren que los mecanismos de resistencia presentes en los aislados estudiados (SRR38509012 y SRR38520180) podrían formar parte del genoma cromosómico estable de la bacteria y no depender de elementos genéticos móviles plasmídicos. Esto es consistente con lo que se conoce de la biología de *Pseudomonas aeruginosa*, una especie reconocida por presentar múltiples mecanismos de resistencia intrínseca, incluyendo bombas de eflujo, disminución de permeabilidad de membrana y genes asociados a resistencia adaptativa (Pang et al., 2019).  
+
+Diversos estudios han demostrado que *Pseudomonas aeruginosa* posee una elevada capacidad de resistencia mediada por sistemas cromosómicos, los cuales contribuyen significativamente a su supervivencia frente a múltiples antibióticos y a su importancia clínica en infecciones hospitalarias (Lister et al., 2009). Aunque los plásmidos representan una vía importante de transferencia horizontal de genes de resistencia en bacterias, la ausencia de estos en contigs plasmídicos en este análisis podría indicar que los aislados estudiados presentan principalmente mecanismos de resistencia intrínseca o cromosómicamente integrados.  
 
 ## APLICACIONES
 
@@ -180,3 +188,5 @@ Pacheco T, Bustos-Cruz RH, Abril D, Arias S, Uribe L, Rincón J, García JC, Esc
 Cuesta, D., Vallejo, M., Guerra, K., Cárdenas, J., Hoyos, C., Loaiza, E., & Villegas, M. V. (2012). Infección intrahospitalaria por Pseudomonas aeruginosa multirresistente: Estudio de casos y controles. Medicina U.P.B., 31(2), 135–142. file:///C:/Users/Samanta/Downloads/ezapatarestrepo,+Art%C3%ADculo+original+5.pdf  
 
 Krawczyk, P. S., Lipinski, L., & Dziembowski, A. (2018). PlasFlow: Predicting plasmid sequences in metagenomic data using genome signatures. Nucleic Acids Research, 46(6), e35. https://doi.org/10.1093/nar/gkx1321
+
+Lister, P. D., Wolter, D. J., & Hanson, N. D. (2009). Antibacterial-resistant Pseudomonas aeruginosa: Clinical impact and complex regulation of chromosomally encoded resistance mechanisms. Clinical Microbiology Reviews, 22(4), 582–610. https://doi.org/10.1128/CMR.00040-09
